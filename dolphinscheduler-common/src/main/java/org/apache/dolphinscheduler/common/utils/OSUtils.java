@@ -138,7 +138,7 @@ public class OSUtils {
             int count = 0;
             if (lines[i].charAt(0) == '-') {
                 for (int j = 0; j < lines[i].length(); j++) {
-                    if (lines[i].charAt(i) == '-') {
+                    if (lines[i].charAt(j) == '-') {
                         count++;
                     }
                 }
